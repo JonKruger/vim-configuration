@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/n374560/projects/rsam'
+let g:netrw_dirhist_2='/home/n374560/projects/rsam/features'
+let g:netrw_dirhist_3='/home/n374560/projects/rsam'
+let g:netrw_dirhist_4='/home/n374560/projects/rsam/features'
+let g:netrw_dirhist_5='/home/n374560'
+let g:netrw_dirhist_6='/home/n374560/projects/rsam'
+let g:netrw_dirhist_7='/home/n374560/projects/bringing-vim-to-the-people/.vim/plugin'

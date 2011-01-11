@@ -1,0 +1,3 @@
+ln -s ~/proj/vim-configuration/.vim .vim
+ln -s ~/proj/vim-configuration/.vimrc .vimrc
+ln -s ~/proj/vim-configuration/.gvimrc .gvimrc
