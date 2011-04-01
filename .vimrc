@@ -131,12 +131,14 @@ imap <C-c> "+y
 map ;y "+y
 map ;p "+p
 imap ;; <Esc>
+cabbr r registers
+cabbr W w
 
 source ~/.vim/snippets/support_functions.vim
 
 filetype plugin on
 
-source ~/.vim/matchit/plugin/matchit.vim
+source ~/.vimvim/matchit/plugin/matchit.vim
 source ~/.vim/vim-ruby-refactoring/plugin/ruby-refactoring.vim
 source ~/.vim/vim-ruby-refactoring/autoload/common.vim
 source ~/.vim/vim-ruby-refactoring/plugin/refactorings/general/addparameter.vim
