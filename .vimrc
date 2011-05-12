@@ -79,6 +79,8 @@ set splitbelow
 " Open new vertical split windows to the right
 set splitright
 
+set wildignore+=tmp
+
 " * Quick keybindings
 
 " Quick, jump out of insert mode while no one is looking
@@ -131,6 +133,8 @@ imap <C-c> "+y
 map ;y "+y
 map ;p "+p
 imap ;; <Esc>
+imap <C-Del> <Esc>ldwi<Esc>xi 
+imap <C-Backspace> <Esc>dbxi
 cabbr r registers
 cabbr W w
 
@@ -138,7 +142,7 @@ source ~/.vim/snippets/support_functions.vim
 
 filetype plugin on
 
-source ~/.vimvim/matchit/plugin/matchit.vim
+source ~/.vim/matchit/plugin/matchit.vim
 source ~/.vim/vim-ruby-refactoring/plugin/ruby-refactoring.vim
 source ~/.vim/vim-ruby-refactoring/autoload/common.vim
 source ~/.vim/vim-ruby-refactoring/plugin/refactorings/general/addparameter.vim
